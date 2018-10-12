@@ -19,7 +19,7 @@ public:
     void update();
     bool isDone();
 private:
-    void setup(const std::string &l_title, const sf::Vector2u &l_size);
+    //void setup(const std::string &l_title, const sf::Vector2u &l_size);
     void create();
     void destroy();
     
