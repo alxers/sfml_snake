@@ -11,7 +11,12 @@ public:
     void handleInput();
     void update();
     void render();
+    
+    sf::Time getElapsed();
+    void restartClock();
 private:
+    sf::Clock m_clock;
+    sf::Time m_elapsed;
 
 };
 
