@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "Window.h"
+#include "Game.h"
 
 int main()
 {  
@@ -11,10 +12,10 @@ int main()
     
     Game game;
     
-    while(!game.isDone())
-    {
-        game.handleInput();
-        game.update();
-        game.render();
-    }
+//    while(!game.isDone())
+//    {
+//        game.handleInput();
+//        game.update();
+//        game.render();
+//    }
 }
