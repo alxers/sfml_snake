@@ -6,9 +6,10 @@
 
 class Snake {
 public:
-    Snake();
-    Snake(const Snake& orig);
-    virtual ~Snake();
+    Snake(int l_blockSize);
+    ~Snake();
+    
+    void setDirection(Direction l_dir);
 private:
 
 };
